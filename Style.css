@@ -721,3 +721,26 @@
     text-align: center;
   }
 }
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.bg-pattern-top,
+.bg-pattern-bottom {
+  max-width: 100%;
+}
+
+.hero-image img {
+  max-width: 100%;
+}
+
+@media (max-width: 480px) {
+  .testimonial-card {
+    max-width: 90%;
+  }
+  .testimonials-slider {
+    gap: 16px;
+  }
+}
